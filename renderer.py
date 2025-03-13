@@ -3,7 +3,7 @@ BACKGROUNDCHAR = "o"
 SNAKECHAR = "X"
 APPLECHAR = "."
 
-def render(width, height, currentSnakePos):
+def render(width, height, currentSnakePos, apples):
     fText = ""
 
     for y in range(height):
